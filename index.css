@@ -1,0 +1,38 @@
+:root {
+    --green: #5f9341;
+    --white: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+
+Style our app according to the provided design!
+
+green color -> #5f9341
+
+*/
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 2px solid;
+    border-color: var(--green);
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
