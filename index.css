@@ -34,8 +34,13 @@ button {
     color: var(--white);
     padding: 10px 20px;
     font-weight: bold;
-    border: none;
+    border: 1px solid var(--green);
     cursor: pointer;
+}
+
+#delete-btn {
+    background-color: var(--white);
+    color: var(--green);
 }
 
 
